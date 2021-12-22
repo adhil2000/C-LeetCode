@@ -1,3 +1,5 @@
+# My Implementation:
+The method I have chosen yields a time complexity of O(n^2). Other programming languages, make use of a HashMap which yields a time complexity of O(n). However in C to implement it this way sacrifices Space Complexity. It is up to the programmer to decide which is more important based on the situation at hand. 
 
 # 1. Two Sum
 
@@ -24,11 +26,3 @@ Output: [1,2]
 Input: nums = [3,3], target = 6
 Output: [0,1]
  
-
-### Constraints:
-
-2 <= nums.length <= 104
--109 <= nums[i] <= 109
--109 <= target <= 109
-Only one valid answer exists.
-
