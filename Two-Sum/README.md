@@ -1,5 +1,5 @@
 # My Implementation:
-The method I have chosen yields a time complexity of O(n^2). Other programming languages, make use of a HashMap which yields a time complexity of O(n). However in C to implement it this way sacrifices Space Complexity. It is up to the programmer to decide which is more important based on the situation at hand. 
+The method I have chosen yields a time complexity of O(n^2). Other programming languages, make use of a HashMap which yields a time complexity of O(n). However in C to implement this, sacrifices Space Complexity. 
 
 # 1. Two Sum
 
