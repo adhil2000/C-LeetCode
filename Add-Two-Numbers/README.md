@@ -1,5 +1,5 @@
 # My Implementation:
-The method I have chosen makes use of a hashmap to yield a time complexity of O(n). Most answers involve use of for-loops, however this methodology yields a slower time complexity of O(n^2).
+The method I have chosen makes use of a carry when adding the numbers to yield a time complexity of O(n).
 
 # 2. Add Two Numbers
 
