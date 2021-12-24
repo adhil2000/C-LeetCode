@@ -1,0 +1,31 @@
+# My Implementation:
+The method I have chosen makes use of a hashmap to yield a time complexity of O(n). Most answers involve use of for-loops, however this methodology yields a slower time complexity of O(n^2).
+
+# 2. Add Two Numbers
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+## Example 1:
+![image](https://user-images.githubusercontent.com/55320801/147364942-09ab2e8a-2f66-4bf0-8363-1e7ef41a9338.png)
+
+
+Input: l1 = [2,4,3], l2 = [5,6,4]
+
+Output: [7,0,8]
+
+Explanation: 342 + 465 = 807.
+
+Output: Because nums[0] + nums[1] == 9, we return [0, 1]
+
+## Example 2:
+Input: l1 = [0], l2 = [0]
+
+Output: [0]
+
+## Example 3:
+Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+
+Output: [8,9,9,9,0,0,0,1]
+ 
